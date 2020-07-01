@@ -7,6 +7,9 @@
 body {
     width: 100vw;
     background-image: url(/imgs/background.svg);
+   
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .header {
@@ -41,7 +44,7 @@ body {
 }
 
 .subHeader p {
-    font-family: Roboto;
+    /*font-family: Roboto;*/
     font-style: normal;
     font-weight: bold;
     font-size: 60px;
@@ -85,7 +88,7 @@ body {
     background: #454E9E;
     border-radius: 20px;
 
-    font-family: Roboto;
+    /*font-family: Roboto;*/
     font-style: normal;
     font-weight: normal;
     font-size: 70px;
@@ -137,7 +140,7 @@ body {
     background: #798478;
     border-radius: 20px;
 
-    font-family: Roboto;
+    /*font-family: Roboto;*/
     font-style: normal;
     font-weight: normal;
     font-size: 35px;
@@ -165,7 +168,7 @@ body {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
     border-radius: 50px;
 
-    font-family: Roboto;
+    /*font-family: Roboto;*/
     font-style: normal;
     font-weight: normal;
     font-size: 65px;
@@ -183,7 +186,7 @@ body {
     }
     
     .subHeader p{
-        font-family: Roboto;
+        /*font-family: Roboto;*/
         font-style: normal;
         font-weight: bold;
         font-size: 60px;
