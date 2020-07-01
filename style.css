@@ -61,8 +61,15 @@ body {
     position: absolute;
     width: 100vw;
     height: 100vw;
-    margin: 0 auto;
     z-index: 1;
+
+    position: relative;
+    width: 852px;
+    height: 344px;
+    left: 257px;
+    top: 50px;
+
+    margin-bottom: 550px;
 }
 
 .question {
@@ -74,7 +81,6 @@ body {
     height: 344px;
     left: 257px;
     top: 630px;
-    margin-bottom: 1000px;
 
     background: #454E9E;
     border-radius: 20px;
@@ -86,6 +92,9 @@ body {
     line-height: 90px;
     text-align: center;
     vertical-align: middle;
+
+    z-index: 1;
+
 
     color: #EFF9F0;
 
@@ -104,4 +113,63 @@ body {
     border-radius: 20px;
 
     background: #EFF9F0;
+}
+
+.btn-grid {
+    display: grid;
+    gap: 10px;
+
+    position: absolute;
+    width: 770px;
+    height: 92px;
+    left: 298px;
+    top: 1053px;
+    z-index: 1;
+
+    background: #EFF9F0;
+}
+
+.btn {
+    width: 770px;
+    height: 92px;
+    border-style: none;
+
+    background: #798478;
+    border-radius: 20px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 53px;
+
+    text-align: center;
+
+    color: #13070C;
+}
+
+.btn:hover {
+    border-color: black;
+    border-style: solid;
+}
+
+.submitButton {
+    position: absolute;
+    width: 553px;
+    height: 256px;
+    left: 398px;
+    top: 420px;
+    
+    background: #FF5A5F;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: center;
+
+    color: #13070C;
 }

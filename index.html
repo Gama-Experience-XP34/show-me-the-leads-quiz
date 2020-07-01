@@ -13,7 +13,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Quiz</title>
+    <script type="text/javascript" src="script.js"></script>
+
+    <title>Saudades de viajar minha filha?</title>
 </head>
 <body>
     <section class="header">
@@ -24,13 +26,82 @@
         <p>PARA ONDE VOCÊ DEVE IR PÓS-PANDEMIA?</p>
     </section>
 
+    <!--Começo do formulário-->
+    <form method="POST" action="https://smtl.gama.academy/leads/bfeee312-b7e1-11ea-8228-89cff86db9a0">
+
     <div class="container">
-        <div class="question">
-            Qual o seu nome?
-        </div>
-        <input class="answer" type="text">
+        <div class="question">Qual o seu nome?</div>
+        <input name="name" class="answer" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" required>
     </div>
-      
+
+    <div class="container">
+        <div class="question">E sua idade?</div>
+        <input class="answer" type="number" required>
+    </div>
+
+    <div class="container">
+        <div class="question">Você prefere frio ou calor?</div>
+        <div id="answer-buttons" class="btn-grid">
+            <button class="btn">Frio</button>
+            <button class="btn">Muito Frio</button>
+            <button class="btn">Quente</button>
+            <button class="btn">Muito Quente</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="question">Quando você viaja, o que não falta na sua mochila?</div>
+        <div id="answer-buttons" class="btn-grid">
+            <button class="btn">Sunga</button>
+            <button class="btn">Jaqueta de escalar o Everest</button>
+            <button class="btn">Pau de Selfie</button>
+            <button class="btn">Tinha que levar protetor?</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="question">Quando você viaja, o que não falta na sua mochila?</div>
+        <div id="answer-buttons" class="btn-grid">
+            <button class="btn">Sunga</button>
+            <button class="btn">Jaqueta de escalar o Everest</button>
+            <button class="btn">Pau de Selfie</button>
+            <button class="btn">Tinha que levar protetor?</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="question">Quando você viaja, o que não falta na sua mochila?</div>
+        <div id="answer-buttons" class="btn-grid">
+            <button class="btn">Sunga</button>
+            <button class="btn">Jaqueta de escalar o Everest</button>
+            <button class="btn">Pau de Selfie</button>
+            <button class="btn">Tinha que levar protetor?</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="question">Quando você viaja, o que não falta na sua mochila?</div>
+        <div id="answer-buttons" class="btn-grid">
+            <button class="btn">Sunga</button>
+            <button class="btn">Jaqueta de escalar o Everest</button>
+            <button class="btn">Pau de Selfie</button>
+            <button class="btn">Tinha que levar protetor?</button>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="question">Para receber mais quizzes como esse, coloque seu e-mail abaixo</div>
+        <input name="email" class="answer" type="email" required>
+    </div>
+
+
+    <input name="redirectTo" type="hidden" value="/resultPage.html"/>
+    <!--<input name="debugMode" type="hidden" value="true" />-->
+    <div class="container">
+        <input type="submit" class="submitButton" value="Meu destino ideal é..." />
+   </div>
+</form>
+    <script type="text/javascript" src="script.js"></script>
 
 </body>
 </html>
