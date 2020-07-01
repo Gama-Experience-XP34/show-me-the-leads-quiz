@@ -1,0 +1,754 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: absolute;
+    width: 100vw;
+    height: 12vh;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#logo{
+    position: absolute;
+    width: 31vw;
+    height: 11.8vh;
+    left: 0.44%;
+    top: 0px;
+
+    background: url(Anotação_2020-06-30_005935.jpg);
+}
+
+#logo2{
+
+    position: absolute;
+    width: 30.3vw;
+    height: 12.7vh;
+    left: 1.46%;
+    top: 0.66%;
+
+    background: url(Anotação_2020-06-30_005935-removebg-preview.png);
+
+}
+
+#titulo{
+
+    position: absolute;
+    width: 1222px;
+    height: 81px;
+    left: 72px;
+    top: 253px;
+    text-align: center;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 70px;
+
+    color: #13070C;
+
+
+}
+
+#logoFundo{
+
+    position: absolute;
+    width: 1366px;
+    height: 165px;
+    left: 0px;
+    top: 0px;
+
+    background: #454E9E;
+
+}
+
+#tituloFundo{
+
+    position: absolute;
+    width: 1366px;
+    height: 250px;
+    left: 0px;
+    top: 165px;
+
+    background: rgba(255, 90, 95, 0.76);
+
+}
+
+#background{
+
+    position: absolute;
+    width: 1366px;
+    height: 1749px;
+    left: 0px;
+    top: 415px;
+
+    background: url(1976241.jpg);
+
+}
+
+#fotoJog{
+
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 257px;
+    top: 437px;
+
+    background: #C4C4C4;
+
+}
+
+#nome{
+
+    position: absolute;
+    width: 171px;
+    height: 35px;
+    left: 374px;
+    top: 484px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #13070C;
+}
+
+#nomeCriador{
+
+    position: absolute;
+    width: 256px;
+    height: 31px;
+    left: 374px;
+    top: 519px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #13070C;
+
+
+}
+
+#retangulo1{
+
+    position: absolute;
+    width: 852px;
+    height: 344px;
+    left: 257px;
+    top: 630px;
+
+    background: #454E9E;
+    border-radius: 20px;
+
+}
+
+
+
+.pergunta{
+
+   
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 82px;
+    text-align: center;
+
+    color: #EFF9F0;
+
+
+}
+
+#pergunta1{
+
+    position: absolute;
+    width: 597px;
+    height: 109px;
+    left: 384px;
+    top: 730px;
+}
+
+#resposta1{
+
+    position: absolute;
+    width: 770px;
+    height: 92px;
+    left: 298px;
+    top: 1053px;
+
+    background: #EFF9F0;
+
+}
+
+#retangulo2{
+
+    position: absolute;
+    width: 852px;
+    height: 344px;
+    left: 257px;
+    top: 1274px;
+
+    background: #454E9E;
+    border-radius: 20px;
+
+}
+
+#pergunta2{
+
+    position: absolute;
+    width: 597px;
+    height: 109px;
+    left: 384px;
+    top: 1391px;
+
+}
+
+#resposta2{
+
+    position: absolute;
+    width: 770px;
+    height: 92px;
+    left: 298px;
+    top: 1697px;
+
+    background: #EFF9F0;
+
+}
+
+#retangulo3{
+
+    position: absolute;
+    width: 852px;
+    height: 344px;
+    left: 257px;
+    top: 1918px;
+
+    background: #454E9E;
+    border-radius: 20px;
+
+}
+
+#pergunta3{
+
+    position: absolute;
+    width: 461px;
+    height: 169px;
+    left: 452px;
+    top: 2006px;
+
+}
+
+#opcao31{
+
+    position: absolute;
+    width: 836px;
+    height: 119px;
+    left: 265px;
+    top: 2328px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#opcao32{
+
+    position: absolute;
+    width: 836px;
+    height: 119px;
+    left: 265px;
+    top: 2481px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#opcao33{
+
+    position: absolute;
+    width: 836px;
+    height: 118px;
+    left: 265px;
+    top: 2634px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#opcao34{
+
+    position: absolute;
+    width: 836px;
+    height: 119px;
+    left: 265px;
+    top: 2786px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#retangulo4{
+
+    position: absolute;
+    width: 852px;
+    height: 344px;
+    left: 258px;
+    top: 3020px;
+
+    background: #454E9E;
+    border-radius: 20px;
+
+}
+
+#pergunta4{
+
+    position: absolute;
+    width: 663px;
+    height: 236px;
+    left: 352px;
+    top: 3074px;
+
+}
+
+#opcao41{
+
+    position: absolute;
+    width: 836px;
+    height: 119px;
+    left: 266px;
+    top: 3430px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#opcao42{
+
+    position: absolute;
+    width: 836px;
+    height: 119px;
+    left: 266px;
+    top: 3583px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#opcao43{
+
+    position: absolute;
+    width: 836px;
+    height: 119px;
+    left: 266px;
+    top: 3736px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#opcao44{
+
+    position: absolute;
+    width: 836px;
+    height: 119px;
+    left: 266px;
+    top: 3889px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#retangulo5{
+
+    position: absolute;
+    width: 852px;
+    height: 344px;
+    left: 258px;
+    top: 4123px;
+
+    background: #454E9E;
+    border-radius: 20px;
+
+}
+
+#pergunta5{
+
+    position: absolute;
+    width: 542px;
+    height: 236px;
+    left: 413px;
+    top: 4177px;
+
+}
+
+#opcao51{
+
+    position: absolute;
+    width: 836px;
+    height: 119px;
+    left: 266px;
+    top: 4533px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#opcao52{
+
+    position: absolute;
+    width: 836px;
+    height: 119px;
+    left: 266px;
+    top: 4686px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#opcao53{
+
+    position: absolute;
+    width: 836px;
+    height: 119px;
+    left: 266px;
+    top: 4839px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#opcao54{
+
+    position: absolute;
+    width: 836px;
+    height: 119px;
+    left: 266px;
+    top: 4992px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#retangulo6{
+
+    position: absolute;
+    width: 852px;
+    height: 344px;
+    left: 257px;
+    top: 5226px;
+
+    background: #454E9E;
+    border-radius: 20px;
+
+}
+
+#pergunta6{
+
+    position: absolute;
+    width: 570px;
+    height: 236px;
+    left: 398px;
+    top: 5280px;
+
+}
+
+#opcao61{
+
+    position: absolute;
+    width: 836px;
+    height: 119px;
+    left: 265px;
+    top: 5636px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#opcao62{
+
+    position: absolute;
+    width: 836px;
+    height: 119px;
+    left: 265px;
+    top: 5789px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#opcao63{
+
+    position: absolute;
+    width: 836px;
+    height: 119px;
+    left: 265px;
+    top: 5942px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#opcao64{
+
+    position: absolute;
+    width: 836px;
+    height: 119px;
+    left: 265px;
+    top: 6095px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#retangulo7{
+
+    position: absolute;
+    width: 852px;
+    height: 344px;
+    left: 258px;
+    top: 6329px;
+
+    background: #454E9E;
+    border-radius: 20px;
+
+}
+
+#pergunta7{
+
+    position: absolute;
+    width: 570px;
+    height: 236px;
+    left: 399px;
+    top: 6383px;
+
+}
+
+#opcao71{
+
+    position: absolute;
+    width: 836px;
+    height: 119px;
+    left: 266px;
+    top: 6739px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#opcao72{
+
+    position: absolute;
+    width: 836px;
+    height: 119px;
+    left: 266px;
+    top: 6892px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#opcao73{
+
+    position: absolute;
+    width: 836px;
+    height: 119px;
+    left: 266px;
+    top: 7045px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#opcao74{
+
+    position: absolute;
+    width: 836px;
+    height: 119px;
+    left: 266px;
+    top: 7198px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#retangulo8{
+
+    position: absolute;
+    width: 852px;
+    height: 344px;
+    left: 256px;
+    top: 7432px;
+
+    background: #454E9E;
+    border-radius: 20px;
+
+}
+
+#pergunta8{
+
+    position: absolute;
+    width: 629px;
+    height: 236px;
+    left: 367px;
+    top: 7486px;
+
+}
+
+#opcao81{
+
+    position: absolute;
+    width: 836px;
+    height: 119px;
+    left: 264px;
+    top: 7842px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#opcao82{
+
+    position: absolute;
+    width: 836px;
+    height: 119px;
+    left: 264px;
+    top: 7995px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#opcao83{
+
+    position: absolute;
+    width: 836px;
+    height: 119px;
+    left: 264px;
+    top: 8148px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#opcao84{
+
+    position: absolute;
+    width: 836px;
+    height: 119px;
+    left: 264px;
+    top: 8301px;
+
+    background: #798478;
+    border-radius: 20px;
+
+}
+
+#retangulo9{
+
+    position: absolute;
+    width: 852px;
+    height: 344px;
+    left: 256px;
+    top: 8535px;
+
+    background: #454E9E;
+    border-radius: 20px;
+
+}
+
+#pergunta9{
+
+
+    position: absolute;
+    width: 764px;
+    height: 216px;
+    left: 300px;
+    top: 8599px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: center;
+
+    color: #EFF9F0;
+
+
+}
+
+#resposta9{
+
+    position: absolute;
+    width: 770px;
+    height: 92px;
+    left: 297px;
+    top: 8959px;
+
+    background: #EFF9F0;
+
+}
+
+#retangulo10{
+
+    position: absolute;
+    width: 553px;
+    height: 256px;
+    left: 419px;
+    top: 9122px;
+
+
+    background: #FF5A5F;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+
+}
+
+#destino{
+
+    position: absolute;
+    left: 15.91%;
+    right: 15.73%;
+    top: 9200px;
+    /*bottom: 21.48%;*/
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 76px;
+    text-align: center;
+
+    color: #13070C;
+
+
+}
