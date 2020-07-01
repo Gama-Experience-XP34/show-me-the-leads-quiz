@@ -173,3 +173,41 @@ body {
 
     color: #13070C;
 }
+
+@media (max-width: 470px) {
+
+    body {
+        width: 470px;
+        background-image: url(/imgs/background.svg);
+    }
+    
+    .subHeader p{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 70px;
+        text-align: center;
+        margin-top: 20px;
+
+        color: #13070C;
+    }
+
+    .header .logo, .container, .question, .answer, .btn-grid, .btn, .submitButton{
+        width: 100vw;
+        left: 0px;
+        margin-top: 5px;
+    }
+
+    .question {
+        font-size: 40px;
+    }
+    .btn {
+        font-size: 20px;
+    }
+
+    .submitButton {
+        font-size: 30px;
+    }
+
+}
