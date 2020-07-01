@@ -194,8 +194,8 @@ body {
     }
 
     .header .logo, .container, .question, .answer, .btn-grid, .btn, .submitButton{
-        width: 100vw;
-        left: 0px;
+        width: 80vw;
+        left: 20px;
         margin-top: 5px;
     }
 
