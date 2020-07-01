@@ -5,3 +5,5 @@ document.querySelectorAll('.btn').forEach(function(e) {
       this.style.backgroundColor = "pink";
     })
   });
+
+  
