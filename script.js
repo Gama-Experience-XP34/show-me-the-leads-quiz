@@ -1,4 +1,4 @@
-var cities = { 
+let cities = { 
   'New York': 0,
   'Orlando': 0,
   'Paris': 0,
@@ -19,6 +19,23 @@ var cities = {
   var dez = 5
   var doce = 6
   var quince = 7.5
+  const city = [
+    'New York',
+    'Orlando',
+    'Paris',
+    'Sidney',
+    'Londres',
+    'Toronto',
+    'Agra',
+    'Rio de Janeiro',
+    'Porto de Galinhas',
+    'Maragogi',
+    'Bonito - MS',
+    'Capadócia',
+    'Osasco',
+    'Chernobyl',
+    'Cidade do Cabo'
+  ]
 
 document.querySelectorAll('.btn-grid').forEach(function (e) {
   e.addEventListener('click', function () {
@@ -256,6 +273,8 @@ butonSubmit.addEventListener('click', () => {
   for(let city in cities){
     score.push(cities[city])
   }
+  localStorage.setItem('cities', score)
+  localStorage.setItem('city', city)
 })
 /* document.querySelectorAll('.btn').forEach(function(e) {
     e.addEventListener('click', function() {
