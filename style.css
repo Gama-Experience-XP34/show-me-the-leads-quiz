@@ -180,11 +180,6 @@ body {
     color: #13070C;
 }
 
-input[type="radio"]
-{
-    display: none;
-}
-
 @media (max-width: 470px) {
 
     body {
