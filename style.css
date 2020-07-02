@@ -58,13 +58,11 @@ body {
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     text-align: center;
     box-sizing: border-box;
     width: 100vw;
-    margin: 20vh auto;
+    margin: 10vh auto;
 }
 
 .question {
@@ -157,23 +155,20 @@ body {
 }
 
 .submitButton {
-    position: absolute;
+    /* position: absolute; */
     width: 553px;
     height: 256px;
-    left: 398px;
-    top: 420px;
+    /* left: 398px;
+    top: 420px; */
     
     background: #FF5A5F;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
     border-radius: 50px;
 
     /*font-family: Roboto;*/
-    font-style: normal;
-    font-weight: normal;
     font-size: 50px;
     line-height: 76px;
     text-align: center;
-
     color: #13070C;
 }
 
