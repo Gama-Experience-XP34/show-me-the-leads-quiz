@@ -46,19 +46,19 @@ document.querySelectorAll('.btn-grid').forEach(function (e) {
           cities['New York'] = cities['New York'] + oito;
           cities['Paris'] = cities['Paris'] + oito;
           cities['Londres'] = cities['Londres'] + oito;
-          e.parentElement.remove()
+          e.parentElement.parentElement.remove()
         }
         else if(value.id === 'mfrio'){
           cities['Chernobyl'] = cities['Chernobyl'] + quince;
           cities['Toronto'] = cities['Toronto'] + quince;
-          e.parentElement.remove()
+          e.parentElement.parentElement.remove()
         }
         else if(value.id === 'quente'){
           cities['Capadócia'] = cities['Capadócia'] + dez;
           cities['Orlando'] = cities['Orlando'] + dez;
           cities['Cidade do Cabo'] = cities['Cidade do Cabo'] + dez;
           cities['Sidney'] = cities['Sidney'] + dez;
-          e.parentElement.remove()
+          e.parentElement.parentElement.remove()
         }
         else {
           cities['Agra'] = cities['Agra'] + doce;
@@ -67,7 +67,7 @@ document.querySelectorAll('.btn-grid').forEach(function (e) {
           cities['Porto de Galinhas'] = cities['orto de Galinhas'] + doce;
           cities['Rio de Janeiro'] = cities['Rio de Janeiro'] + doce;
           cities['Bonito - MS'] = cities['Bonito - MS'] + doce;
-          e.parentElement.remove()
+          e.parentElement.parentElement.remove()
         }
         break;
 
@@ -78,7 +78,7 @@ document.querySelectorAll('.btn-grid').forEach(function (e) {
         cities['Sidney'] = cities['Sidney'] + dez;
         cities['Osasco'] = cities['Osasco'] + dez;
         cities['Rio de Janeiro'] = cities['Rio de Janeiro'] + dez;
-        e.parentElement.remove()
+        e.parentElement.parentElement.remove()
       }
       else if(value.id === 'jaqueta'){
         cities['New York'] = cities['New York'] + doce;
@@ -86,20 +86,20 @@ document.querySelectorAll('.btn-grid').forEach(function (e) {
         cities['Londres'] = cities['Londres'] + doce;
         cities['Chernobyl'] = cities['Chernobyl'] + doce;
         cities['Toronto'] = cities['Toronto'] + doce;
-        e.parentElement.remove()
+        e.parentElement.parentElement.remove()
       }
       else if(value.id === 'Pselfie'){
         cities['Capadócia'] = cities['Capadócia'] + quince;
         cities['Agra'] = cities['Agra'] + quince;
         cities['Maragogi'] = cities['Maragogi'] + quince;
         cities['Bonito - MS'] = cities['Bonito - MS'] + quince;
-        e.parentElement.remove()
+        e.parentElement.parentElement.remove()
       }
       else {
         cities['Capadócia'] = cities['Capadócia'] + oito;
         cities['Agra'] = cities['Agra'] + oito;
         cities['Cidade do Cabo'] = cities['Cidade do Cabo'] + oito;
-        e.parentElement.remove()
+        e.parentElement.parentElement.remove()
       }
       break;
       
@@ -110,7 +110,7 @@ document.querySelectorAll('.btn-grid').forEach(function (e) {
           cities['Cidade do Cabo'] = cities['Cidade do Cabo'] + doce;
           cities['Sidney'] = cities['Sidney'] + doce;
           cities['Agra'] = cities['Agra'] + doce;
-          e.parentElement.remove()
+          e.parentElement.parentElement.remove()
         }
         else if(value.id === 'sozinho'){
           cities['Orlando'] = cities['Orlando'] + dez;
@@ -118,7 +118,7 @@ document.querySelectorAll('.btn-grid').forEach(function (e) {
           cities['Rio de Janeiro'] = cities['Rio de Janeiro'] + dez;
           cities['New York'] = cities['New York'] + dez;
           cities['Chernobyl'] = cities['Chernobyl'] + dez;
-          e.parentElement.remove()
+          e.parentElement.parentElement.remove()
         }
         else if(value.id === 'amor'){
           cities['Capadócia'] = cities['Capadócia'] + oito;
@@ -127,12 +127,12 @@ document.querySelectorAll('.btn-grid').forEach(function (e) {
           cities['Maragogi'] = cities['Maragogi'] + oito;
           cities['Bonito - MS'] = cities['Bonito - MS'] + oito;
           cities['Porto de Galinhas'] = cities['Porto de Galinhas'] + oito;
-          e.parentElement.remove()
+          e.parentElement.parentElement.remove()
         }
         else {
           cities['Sidney'] = cities['Sidney'] + quince;
           cities['Londres'] = cities['Londres'] + quince;
-          e.parentElement.remove()
+          e.parentElement.parentElement.remove()
         }
         break;
       
@@ -142,27 +142,27 @@ document.querySelectorAll('.btn-grid').forEach(function (e) {
           cities['New York'] = cities['New York'] + oito;
           cities['Londres'] = cities['Londres'] + oito;
           cities['Toronto'] = cities['Toronto'] + oito;
-          e.parentElement.remove()
+          e.parentElement.parentElement.remove()
         }
         else if(value.id === 'restaurant'){
           cities['Cidade do Cabo'] = cities['Cidade do Cabo'] + dez;
           cities['Sidney'] = cities['Sidney'] + dez;
           cities['Paris'] = cities['Paris'] + dez;
           cities['Capadócia'] = cities['Capadócia'] + dez;
-          e.parentElement.remove()
+          e.parentElement.parentElement.remove()
         }
         else if(value.id === 'marmita'){
           cities['Agra'] = cities['Agra'] + doce;
           cities['Rio de Janeiro'] = cities['Rio de Janeiro'] + doce;
           cities['Porto de Galinhas'] = cities['Porto de Galinhas'] + doce;
-          e.parentElement.remove()
+          e.parentElement.parentElement.remove()
         }
         else {
           cities['Osasco'] = cities['Osasco'] + quince;
           cities['Bonito - MS'] = cities['Bonito - MS'] + quince;
           cities['Maragogi'] = cities['Maragogi'] + quince;
           cities['Chernobyl'] = cities['Chernobyl'] + quince;
-          e.parentElement.remove()
+          e.parentElement.parentElement.remove()
         }
         break;
 
@@ -171,7 +171,7 @@ document.querySelectorAll('.btn-grid').forEach(function (e) {
           cities['Osasco'] = cities['Osasco'] + dez;
           cities['Chernobyl'] = cities['Chernobyl'] + dez;
           cities['Rio de Janeiro'] = cities['Rio de Janeiro'] + dez;
-          e.parentElement.remove()
+          e.parentElement.parentElement.remove()
         }
         else if(value.id === 'pagodeira'){
           cities['Cidade do Cabo'] = cities['Cidade do Cabo'] + doce;
@@ -180,7 +180,7 @@ document.querySelectorAll('.btn-grid').forEach(function (e) {
           cities['Bonito - MS'] = cities['Bonito - MS'] + doce;
           cities['Porto de Galinhas'] = cities['Porto de Galinhas'] + doce;
           cities['Capadócia'] = cities['Capadócia'] + doce;
-          e.parentElement.remove()
+          e.parentElement.parentElement.remove()
         }
         else if(value.id === 'dance'){
           cities['New York'] = cities['New York'] + quince;
@@ -190,14 +190,14 @@ document.querySelectorAll('.btn-grid').forEach(function (e) {
           cities['Sidney'] = cities['Sidney'] + doce;
           cities['Orlando'] = cities['Orlando'] + dez;
           cities['Paris'] = cities['Paris'] + oito;
-          e.parentElement.remove()
+          e.parentElement.parentElement.remove()
         }
         else {
           cities['New York'] = cities['New York'] + quince;
           cities['Paris'] = cities['Paris'] + oito;
           cities['Sidney'] = cities['Sidney'] + quince;
           cities['Toronto'] = cities['Toronto'] + quince;
-          e.parentElement.remove()
+          e.parentElement.parentElement.remove()
         }
         break;
         
@@ -207,7 +207,7 @@ document.querySelectorAll('.btn-grid').forEach(function (e) {
           cities['Sidney'] = cities['Sidney'] + oito;
           cities['Toronto'] = cities['Toronto'] + oito;
           cities['Rio de Janeiro'] = cities['Rio de Janeiro'] + oito;
-          e.parentElement.remove()
+          e.parentElement.parentElement.remove()
         }
         else if(value.id === 'nature'){
           cities['Toronto'] = cities['Toronto'] + oito;
@@ -216,18 +216,18 @@ document.querySelectorAll('.btn-grid').forEach(function (e) {
           cities['Maragogi'] = cities['Maragogi'] + doce;
           cities['Bonito - MS'] = cities['Bonito - MS'] + doce;
           cities['Capadócia'] = cities['Capadócia'] + doce;
-          e.parentElement.remove()
+          e.parentElement.parentElement.remove()
         }
         else if(value.id === 'power'){
           cities['Chernobyl'] = cities['Chernobyl'] + dez;
-          e.parentElement.remove()
+          e.parentElement.parentElement.remove()
         }
         else {
           cities['Orlando'] = cities['Orlando'] + dez;
           cities['Paris'] = cities['Paris'] + dez;
           cities['New York'] = cities['New York'] + dez;
           cities['Osasco'] = cities['Osasco'] + dez;
-          e.parentElement.remove()
+          e.parentElement.parentElement.remove()
         }
         break;
         
@@ -238,7 +238,7 @@ document.querySelectorAll('.btn-grid').forEach(function (e) {
             cities['Paris'] = cities['Paris'] + oito;
             cities['Londres'] = cities['Londres'] + oito;
             cities['Porto de Galinhas'] = cities['Porto de Galinhas'] + oito;
-            e.parentElement.remove()
+            e.parentElement.parentElement.remove()
           }
           else if(value.id === 'many'){
             cities['Toronto'] = cities['Toronto'] + dez;
@@ -246,18 +246,18 @@ document.querySelectorAll('.btn-grid').forEach(function (e) {
             cities['Maragogi'] = cities['Maragogi'] + dez;
             cities['Sidney'] = cities['Sidney'] + dez;
             cities['Bonito - MS'] = cities['Bonito - MS'] + dez;
-            e.parentElement.remove()
+            e.parentElement.parentElement.remove()
           }
           else if(value.id === 'some'){
             cities['Agra'] = cities['Agra'] + doce;
             cities['Capadócia'] = cities['Capadócia'] + doce;
             cities['Cidade do Cabo'] = cities['Cidade do Cabo'] + doce;
-            e.parentElement.remove()
+            e.parentElement.parentElement.remove()
           }
           else {
             cities['Chernobyl'] = cities['Chernobyl'] + quince;
             cities['Osasco'] = cities['Osasco'] + quince;
-            e.parentElement.remove()
+            e.parentElement.parentElement.remove()
           }
           break;
       default:
