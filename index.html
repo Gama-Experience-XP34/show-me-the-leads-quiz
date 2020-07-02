@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <!--Google analytics-->
 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171418975-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171418975-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-      gtag('config', 'UA-171418975-1');
+        gtag('config', 'UA-171418975-1');
     </script>
 
     <!-- Hotjar Tracking Code for  -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:1881031,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-    
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 1881031, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -45,89 +46,191 @@
     <!--Começo do formulário-->
     <form method="POST" action="https://smtl.gama.academy/leads/bfeee312-b7e1-11ea-8228-89cff86db9a0">
 
-    <div class="container">
-        <div class="question">Qual o seu nome?</div>
-        <input name="name" class="answer" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" required>
-    </div>
-
-    <div class="container">
-        <div class="question">E sua idade?</div>
-        <input class="answer" type="number" required>
-    </div>
-
-    <div class="container">
-        <div class="question">Você prefere frio ou calor?</div>
-        <div id="answer-buttons" class="btn-grid">
-            <radio class="btn">Frio</radio>
-            <radio class="btn">Muito Frio</radio>
-            <radio class="btn">Quente</radio>
-            <radio class="btn">Muito Quente</radio>
+        <div class="container">
+            <div class="question">Qual o seu nome?</div>
+            <input name="name" class="answer" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" required>
         </div>
-    </div>
 
-    <div class="container">
-        <div class="question">Quando você viaja, o que não falta na sua mochila?</div>
-        <div id="answer-buttons" class="btn-grid">
-            <radio class="btn">Sunga</radio>
-            <radio class="btn">Jaqueta de escalar o Everest</radio>
-            <radio class="btn">Pau de Selfie</radio>
-            <radio class="btn">Tinha que levar protetor?</radio>
+        <div class="container">
+            <div class="question">E sua idade?</div>
+            <input class="answer" type="number" min="15" required>
         </div>
-    </div>
 
-    <div class="container">
-        <div class="question">Qual sua melhor companhia para viagem?</div>
-        <div id="answer-buttons" class="btn-grid">
-            <radio class="btn">Meu Pet</radio>
-            <radio class="btn">Melhor sozinho do que mal acompanhado</radio>
-            <radio class="btn">Pau de selfie</radio>
-            <radio class="btn">Tinha que levar protetor?</radio>
+        <div class="container">
+            <div class="question">Você prefere frio ou calor?</div>
+                <div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="frio">Frio</label>
+                        <input type="radio" name="weather" class="btn" id="frio"></input>
+                    </div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="mfrio">Muito Frio</label>
+                        <input type="radio" name="weather" class="btn" id="mfrio"></input>
+                    </div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="quente">Quente</label>
+                        <input type="radio" name="weather" class="btn" id="quente"></input>
+                    </div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="mquente">Muito Quente</label>
+                        <input type="radio" name="weather" class="btn" id="mquente"></input>
+                    </div> 
+                </div>
+            </div>
         </div>
-    </div>
 
-    <div class="container">
-        <div class="question">Qual playlist você escuta a caminho de sua trip?</div>
-        <div id="answer-buttons" class="btn-grid">
-            <radio class="btn">Funk Hits</radio>
-            <radio class="btn">Pagodeira</radio>
-            <radio class="btn">Dance Party</radio>
-            <radio class="btn">Today's Pop hits</radio>
+        <div class="container">
+            <div class="question">Quando você viaja, o que não falta na sua mochila?</div>
+                <div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="sunga">Sunga</label>
+                        <input type="radio" name="bag" class="btn" id="Sunga"></input>
+                    </div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="jaqueta">Jaqueta de escalar o Everest</label>
+                        <input type="radio" name="bag" class="btn" id="jaqueta"></input>
+                    </div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="Pselfie">Pau de Selfie</label>
+                        <input type="radio" name="bag" class="btn" id="Pselfie"></input>
+                    </div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="protetor">Tinha que levar protetor?</label>
+                        <input type="radio" name="bag" class="btn" id="protetor"></input>
+                    </div> 
+                </div>
+            </div>
         </div>
-    </div>
 
-    <div class="container">
-        <div class="question">O que você gosta de fazer no seu tempo livre?</div>
-        <div id="answer-buttons" class="btn-grid">
-            <radio class="btn">Ir em todas as festas possíveis</radio>
-            <radio class="btn">Se conectar com a mãe-natureza</radio>
-            <radio class="btn">Visitar uma usina nuclear que explodiu</radio>
-            <radio class="btn">Comprar tudo que for possível</radio>
+        <div class="container">
+            <div class="question">Qual sua melhor companhia para viagem?</div>
+                <div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="pet">Meu Pet</label>
+                        <input type="radio" name="friend" class="btn" id="pet"></input>
+                    </div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="sozinho">Melhor sozinho do que mal acompanhado</label>
+                        <input type="radio" name="friend" class="btn" id="sozinho"></input>
+                    </div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="friendPselfie">Pau de Selfie</label>
+                        <input type="radio" name="friend" class="btn" id="friendPselfie"></input>
+                    </div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="friendProtector">Tinha que levar protetor?</label>
+                        <input type="radio" name="friend" class="btn" id="friendProtector"></input>
+                    </div> 
+                </div>
+            </div>
         </div>
-    </div>
 
-    <div class="container">
-        <div class="question">Quanto tempo você consegue ficar sem postar foto?</div>
-        <div id="answer-buttons" class="btn-grid">
-            <radio class="btn">Gasto o 4g todo para postar o tempo todo</radio>
-            <radio class="btn">Procuro Wi-Fi para postar de vez em quando</radio>
-            <radio class="btn">Posto só no hotel</radio>
-            <radio class="btn">Nem posto!</radio>
+        <div class="container">
+            <div class="question">Qual sua melhor companhia para viagem?</div>
+                <div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="pet">Meu Pet</label>
+                        <input type="radio" name="friend" class="btn" id="pet"></input>
+                    </div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="alone">Melhor sozinho do que mal acompanhado</label>
+                        <input type="radio" name="friend" class="btn" id="alone"></input>
+                    </div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="friendPselfie">Pau de Selfie</label>
+                        <input type="radio" name="friend" class="btn" id="friendPselfie"></input>
+                    </div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="friendProtector">Tinha que levar protetor?</label>
+                        <input type="radio" name="friend" class="btn" id="friendProtector"></input>
+                    </div> 
+                </div>
+            </div>
         </div>
-    </div>
-    
-    <div class="container">
-        <div class="question">Para receber mais quizzes como esse, coloque seu e-mail abaixo</div>
-        <input name="email" class="answer" type="email" required>
-    </div>
+
+        <div class="container">
+            <div class="question">Qual playlist você escuta a caminho de sua trip?</div>
+                <div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="funk">Funk Hits</label>
+                        <input type="radio" name="music" class="btn" id="funk"></input>
+                    </div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="pagodeira">Pagodeira</label>
+                        <input type="radio" name="music" class="btn" id="pagodeira"></input>
+                    </div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="dance">Dance Party</label>
+                        <input type="radio" name="music" class="btn" id="dance"></input>
+                    </div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="pop">Today's Pop hits</label>
+                        <input type="radio" name="music" class="btn" id="pop"></input>
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="question">O que você gosta de fazer no seu tempo livre?</div>
+                <div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="party">Ir em todas as festas possíveis</label>
+                        <input type="radio" name="time" class="btn" id="party"></input>
+                    </div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="natureza">Se conectar com a mãe-natureza</label>
+                        <input type="radio" name="time" class="btn" id="nature"></input>
+                    </div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="power">Visitar uma usina nuclear que explodiu</label>
+                        <input type="radio" name="time" class="btn" id="power"></input>
+                    </div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="buy">Comprar tudo que for possível</label>
+                        <input type="radio" name="time" class="btn" id="buy"></input>
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="question">Quanto tempo você consegue ficar sem postar foto?</div>
+                <div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="lot">Gasto o 4g todo para postar o tempo todo</label>
+                        <input type="radio" name="pics" class="btn" id="party"></input>
+                    </div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="many">Procuro Wi-Fi para postar de vez em quando</label>
+                        <input type="radio" name="pics" class="btn" id="many"></input>
+                    </div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="some">Posto só no hotel</label>
+                        <input type="radio" name="pics" class="btn" id="some"></input>
+                    </div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <label for="nothing">Nem posto!</label>
+                        <input type="radio" name="pics" class="btn" id="nothing"></input>
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="question">Para receber mais quizzes como esse, coloque seu e-mail abaixo</div>
+            <input name="email" class="answer" type="email" required>
+        </div>       
 
 
-    <input name="redirectTo" type="hidden" value="/resultPage.html"/>
-    <!--<input name="debugMode" type="hidden" value="true" />-->
-    <div class="container">
-        <input type="submit" class="submitButton" value="Meu destino ideal é..." />
-   </div>
-</form>
+    <!--     <input name="redirectTo" type="hidden" value="/resultPage.html" />
+        <input name="debugMode" type="hidden" value="true" />
+        <div class="container">
+            <input type="submit" class="submitButton" value="Meu destino ideal é..." />
+        </div> -->
+    </form>
     <script type="text/javascript" src="script.js"></script>
 
 </body>
+
 </html>
