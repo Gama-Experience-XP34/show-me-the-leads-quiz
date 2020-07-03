@@ -6,13 +6,6 @@
     box-sizing: border-box;
 }
 
-.fb-share-button {
-/*     position: absolute;
-    width: 197px;
-    height: 179px;
-    left: 110px;
-    top: 424px; */
-}
 :root {
     --primary-color: #454E9E
 }
@@ -139,4 +132,25 @@ body {
 /* ----------Responsive design---------- */
 
 
-@media (max-width: 420px) { }
+@media (max-width: 520px) {
+    
+    body, html {
+        width: 100%;
+    }
+
+    .subHeader p {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .footer {
+        margin-top: 20px;
+    }
+
+    .header .logo {
+        margin: 0 auto;
+        width: 100vw;
+    }
+
+ }
