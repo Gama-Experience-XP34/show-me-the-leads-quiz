@@ -3,21 +3,21 @@ let cities = localStorage.getItem('city').split(',')
 let value = scores.indexOf(Math.max.apply(null, scores ));
 console.log(cities[value])
 let dados = { 
-'New York': "imgs/logo.jpeg",
-'Orlando': "imgs/logo.jpeg",
-'Paris': "imgs/logo.jpeg",
-'Sidney': "imgs/logo.jpeg",
-'Londres': "imgs/logo.jpeg",
-'Toronto': "imgs/logo.jpeg",
-'Agra': "imgs/logo.jpeg",
-'Rio de Janeiro': "imgs/logo.jpeg",
-'Porto de Galinhas': "imgs/logo.jpeg",
-'Maragogi': "imgs/logo.jpeg",
-'Bonito - MS': "imgs/logo.jpeg",
-'Capadócia': "imgs/logo.jpeg",
-'Osasco': "imgs/logo.jpeg",
-'Chernobyl': "imgs/logo.jpeg",
-'Cidade do Cabo': "imgs/logo.jpeg"} 
+'New York': "imgs/NY.jpg",
+'Orlando': "imgs/Disney.jpg",
+'Paris': "imgs/Paris.jpg",
+'Sidney': "imgs/Sidney.jpg",
+'Londres': "imgs/Londres.jpg",
+'Toronto': "imgs/Toronto.jpg",
+'Agra': "imgs/Agra.jpg",
+'Rio de Janeiro': "imgs/RJ.jpg",
+'Porto de Galinhas': "imgs/PortodeGalinhas.jpg",
+'Maragogi': "imgs/Maragogi.jpg",
+'Bonito - MS': "imgs/Bonito.jpg",
+'Capadócia': "imgs/Capadocia.jpg",
+'Osasco': "imgs/Osasco.jpg",
+'Chernobyl': "imgs/Chernobyl.jpg",
+'Cidade do Cabo': "imgs/Cabo.jpg"} 
 
 let imagem = document.querySelector('.picture img')
 let title = document.querySelector('.name')
